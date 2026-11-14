@@ -1,0 +1,15 @@
+
+
+
+
+npm init -y
+npm i bootsrap
+npm i -D http-server
+npx http-server
+(Stop -> Ctrl+C)
+
+// package.json -> scripts -> dev -> "npx http-server"
+npm run dev
+
+npm i -g http-server
+http-server
