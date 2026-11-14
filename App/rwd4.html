@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @custom-variant dark (&:where(.dark, .dark *));
+    </style>
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <div class="flex flex-wrap mt-8 bg-purple-100">
+            <div class="w-full md:w-1/2 lg:w-1/4 h-[200px] bg-violet-600"></div>
+            <div class="w-full md:w-1/2 lg:w-1/4 h-[200px] bg-purple-600"></div>
+            <div class="w-full md:w-1/2 lg:w-1/4 h-[200px] bg-indigo-600"></div>
+            <div class="w-full md:w-1/2 lg:w-1/4 h-[200px] bg-blue-600"></div>
+        </div>
+    </div>
+</body>
+
+</html>
